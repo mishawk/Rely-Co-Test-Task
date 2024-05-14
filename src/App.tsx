@@ -1,12 +1,13 @@
 import './App.css';
+import CharactersTable from './components/CharactersTable/CharactersTable';
+import { NavBar } from './components/NavBar/NavBar';
 
 function App() {
 	return (
-		<h1 className="text-3xl font-bold underline">
-			Hello world!Hello world!Hello world!Hello world!Hello world!Hello
-			world!Hello world!Hello world!Hello world!Hello world!Hello
-			world!Hello world!
-		</h1>
+		<>
+			<NavBar />
+			<CharactersTable />
+		</>
 	);
 }
 
